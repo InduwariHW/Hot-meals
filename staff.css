@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("img/Staff.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    width: 60%;
+    justify-content:space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .5s;
+    
+}
+
+nav a:hover{
+   color: red;
+
+}
+
+.main{
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 45%;
+    width: 50%;
+    
+
+}
+
+h1{
+
+    font-size: 60px;
+    margin-left: 200px;
+}
+
+.red{
+    color: red;
+}
+
+.white{
+    color: #fff;
+}
+
+.green{
+    color: #5dbd04;
+}
+
+.blue{
+    color: rgb(0, 162, 255);
+}
+.brown{
+    color: #94633a;
+}
+
+.mem{
+    display: flex;
+    width: 800px;
+    margin: 10px;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.mem a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .5s;
+    font-size: 40px;
+}
+
+.mem a:hover{
+    font-size:60;
+    color: red;
+}
+
+.mem h3{
+    text-align: right;
+    margin-left: 50px;
+}
+
+.box{
+    width: 100%;
+    justify-content: center;
+    margin-top: 15%;
+    
+}
+form {
+    margin-bottom: 20px;
+    display: flex;
+    color: #fff;
+    justify-content:space-between;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input, select, button {
+    margin-bottom: 12px;
+  }
+  
+  h3{
+    font-size: 30px;
+  }
+  .add{
+    background-color: #5dbd04;
+    color: #fff;
+    border-radius: 10px;
+    width: 10%;
+  }
+
+  .up{
+    background-color:rgb(0, 162, 255);
+    color: #fff;
+    border-radius: 10px;
+    width: 10%;
+  }
+  
+
+  .del{
+    background-color:red;
+    color: #fff;
+    border-radius: 10px;
+    width: 10%;
+  }
+
+  input{
+    background-color: #555555;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
